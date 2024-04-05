@@ -3,7 +3,7 @@ somaIdade = 0
 somaPeso = 0
 maiorIdade = 0
 pessoas10a30 = 0
-while qtdPessoas < 7:
+while qtdPessoas <= 7:
     idade = float(input("Idade:"))
     peso = float(input("Peso:"))
     qtdPessoas += 1
