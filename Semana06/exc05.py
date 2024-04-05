@@ -3,7 +3,7 @@ somaSalario = 0
 maiorIdade = 0
 menorIdade = 1000
 mulheres10k = 0
-while habitantes <= 10:
+while habitantes < 10:
     idade = int(input("Idade:"))
     print("Digite seu sexo M/F:")
     sexo =input("Sexo:").upper()
